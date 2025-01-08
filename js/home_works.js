@@ -86,6 +86,7 @@ const startTimer = () => {
     }
     isRunning = true
 }
+
 const stopTimer = () => {
     clearInterval(interval)
     isRunning = false
